@@ -7,12 +7,12 @@ public class AddressEntry {
     private String street;
     private String city;
     private String state;
-    private int zip;
+    private String zip;
     private String email;
     private String phone;
 
     // Constructor
-    public AddressEntry(String firstName, String lastName, String street, String city, String state, int zip,
+    public AddressEntry(String firstName, String lastName, String street, String city, String state, String zip,
             String email, String phone) {
         this.firstName = firstName;
         this.lastName = lastName;
@@ -65,11 +65,11 @@ public class AddressEntry {
         this.state = state;
     }
 
-    public int getZip() {
+    public String getZip() {
         return zip;
     }
 
-    public void setZip(int zip) {
+    public void setZip(String zip) {
         this.zip = zip;
     }
 
