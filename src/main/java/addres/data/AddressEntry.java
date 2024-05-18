@@ -24,6 +24,7 @@ public class AddressEntry {
         this.phone = phone;
     }
 
+    // Métodos getters y setters
     public String getFirstName() {
         return firstName;
     }
@@ -87,4 +88,12 @@ public class AddressEntry {
     public void setPhone(String phone) {
         this.phone = phone;
     }
+
+    // Método toString()
+    @Override
+    public String toString() {
+        return "AddressEntry [firstName=" + firstName + ", lastName=" + lastName + ", street=" + street + ", city="
+                + city + ", state=" + state + ", zip=" + zip + ", email=" + email + ", phone=" + phone + "]";
+    }
+
 }
