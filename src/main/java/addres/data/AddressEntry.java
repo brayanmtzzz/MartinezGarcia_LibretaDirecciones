@@ -92,8 +92,9 @@ public class AddressEntry {
     // Método toString()
     @Override
     public String toString() {
-        return "AddressEntry [firstName=" + firstName + ", lastName=" + lastName + ", street=" + street + ", city="
-                + city + ", state=" + state + ", zip=" + zip + ", email=" + email + ", phone=" + phone + "]";
+        return "Nombre: " + firstName + "\nApellido: " + lastName + "\nCalle: " + street + "\nCiudad: "
+                + city + "\nEstado: " + state + "\nCódigo Postal: " + zip + "\nCorreo electrónico: " + email
+                + "\nCorreo electrónico: " + phone;
     }
 
 }
