@@ -1,6 +1,6 @@
-import addres.Menu;
-import addres.data.AddressBook;
-import addres.data.AddressEntry;
+import address.Menu;
+import address.data.AddressBook;
+import address.data.AddressEntry;
 import org.junit.Before;
 import org.junit.Test;
 

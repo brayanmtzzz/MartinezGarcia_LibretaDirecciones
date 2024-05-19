@@ -1,7 +1,7 @@
 import org.junit.Before;
 import org.junit.Test;
 
-import addres.data.AddressEntry;
+import address.data.AddressEntry;
 
 import static org.junit.Assert.*;
 

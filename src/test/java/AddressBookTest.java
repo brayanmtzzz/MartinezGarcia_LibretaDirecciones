@@ -1,8 +1,8 @@
 import org.junit.Before;
 import org.junit.Test;
 
-import addres.data.AddressBook;
-import addres.data.AddressEntry;
+import address.data.AddressBook;
+import address.data.AddressEntry;
 
 import java.util.List;
 
