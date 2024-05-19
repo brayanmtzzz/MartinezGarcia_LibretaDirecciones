@@ -1,1 +1,16 @@
-Brayan,Martinez,Gavilanes,Coatzacoalcos,Veracruz,9638,brayanmtzzz@gmail.com,9211515530
+Juan,Arias,Revolución 22,Minatitlán,Veracruz,94233,juan@gmail.com,9228024552
+Brayan,Martinez,Gavilanes,Coatzacoalcos,Veracruz,96538,brayanmtzzz@gmail.com,9211515530
+José,Camacho,Independencia 142,Xalapa,Veracruz,96400,josec@gmail.com,9284236652
+Maria,Flores,Roble 18,Coatzacoalcos,Veracruz,96535,maria@gmail.com,9214233245
+Juan,Arias,Revolución 22,Minatitlán,Veracruz,94233,juan@gmail.com,9228024552
+José,Camacho,Independencia 142,Xalapa,Veracruz,96400,josec@gmail.com,9284236652
+Maria,Flores,Roble 18,Coatzacoalcos,Veracruz,96535,maria@gmail.com,9214233245
+Roger,Zavaleta,Roman Marin 102,Nanchital,Veracruz,96300,roger@gmail.com,9232222222
+Pedro,Zarate,Madero 218,Minatitlán,Veracruz,95000,pedro@gmail.com,9229999999
+Manuel,Soto,Allende 100,Coatzacoalcos,Veracruz,96400,manuel@gmail.com,9214444333
+Norma,Perez,Juan Escutia 1022,Minatitlán,Veracruz,95000,norma@gmail.com,9226666555
+Roger,Zavaleta,Roman Marin 102,Nanchital,Veracruz,96300,roger@gmail.com,9232222222
+Pedro,Zarate,Madero 218,Minatitlán,Veracruz,95000,pedro@gmail.com,9229999999
+Manuel,Soto,Allende 100,Coatzacoalcos,Veracruz,96400,manuel@gmail.com,9214444333
+Brayan,Martinez,Gavilanes,Coatzacoalcos,Veracruz,96538,brayanmtzzz@gmail.com,9211515530
+Norma,Perez,Juan Escutia 1022,Minatitlán,Veracruz,95000,norma@gmail.com,9226666555

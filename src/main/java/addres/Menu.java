@@ -36,7 +36,7 @@ public class Menu {
             while (fileScanner.hasNextLine()) {
                 String line = fileScanner.nextLine();
                 String[] parts = line.split(",");
-                if (parts.length == 7) {
+                if (parts.length == 8) {
                     AddressEntry entry = new AddressEntry(
                             parts[0], parts[1], parts[2], parts[3], parts[4], parts[5], parts[6], parts[7]);
                     addressBook.addAddressEntry(entry);
@@ -44,7 +44,9 @@ public class Menu {
             }
             System.out.println("Entradas cargadas desde el archivo.");
         } catch (FileNotFoundException e) {
-            System.out.println("Archivo no encontrado.");
+            System.out.println("Archivo no encontrado: " + filename);
+        } catch (Exception e) {
+            System.out.println("Error al cargar el archivo: " + e.getMessage());
         }
     }
 
@@ -149,7 +151,7 @@ public class Menu {
             }
             System.out.println("Entradas guardadas en la libreta de direcciones.");
         } catch (IOException e) {
-            System.out.println("Error al guardar en la libreta de direcciones.");
+            System.out.println("Error al guardar el archivo.");
         }
     }
 
