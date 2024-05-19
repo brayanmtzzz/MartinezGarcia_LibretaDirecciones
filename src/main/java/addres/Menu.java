@@ -5,6 +5,9 @@ import addres.data.AddressEntry;
 
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.PrintWriter;
 import java.util.List;
 import java.util.Scanner;
 
@@ -24,7 +27,7 @@ public class Menu {
         System.out.println("c) Eliminar");
         System.out.println("d) Buscar");
         System.out.println("e) Mostrar");
-        System.out.println("f) Salir");
+        System.out.println("f) Guardar y Salir");
         System.out.println("=======================================");
     }
 
@@ -131,4 +134,23 @@ public class Menu {
             }
         }
     }
+
+    public void saveAndQuit(String filename) {
+        try (PrintWriter writer = new PrintWriter(new FileWriter(filename))) {
+            for (AddressEntry entry : addressBook.getAllAddressEntries()) {
+                writer.println(entry.getFirstName() + "," +
+                        entry.getLastName() + "," +
+                        entry.getStreet() + "," +
+                        entry.getCity() + "," +
+                        entry.getState() + "," +
+                        entry.getZip() + "," +
+                        entry.getEmail() + "," +
+                        entry.getPhone());
+            }
+            System.out.println("Entradas guardadas en la libreta de direcciones.");
+        } catch (IOException e) {
+            System.out.println("Error al guardar en la libreta de direcciones.");
+        }
+    }
+
 }

@@ -11,6 +11,10 @@ public class AddressBookApplication {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         boolean running = true;
+        String addressbook = "addressbook.txt";
+
+        // Cargar las entradas desde un archivo al iniciar la aplicación
+        menu.loadFromFile(addressbook);
 
         while (running) {
             menu.displayMenu();
@@ -34,7 +38,9 @@ public class AddressBookApplication {
                     menu.showEntries();
                     break;
                 case "f":
+                    menu.saveAndQuit(addressbook);
                     running = false;
+                    System.out.println("Saliendo de la aplicación...");
                     break;
                 default:
                     System.out.println("Ingresa una opción válida.\n");
