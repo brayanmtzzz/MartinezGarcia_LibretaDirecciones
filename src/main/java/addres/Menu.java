@@ -17,8 +17,8 @@ public class Menu {
 
     // Métodos del menú
     public void displayMenu() {
-        System.out.println("=======================================");
-        System.out.println("Elige una opción del menú");
+        System.out.println("\n=======================================");
+        System.out.println("Elige una opción del menú\n");
         System.out.println("a) Cargar entradas desde un archivo");
         System.out.println("b) Agregar");
         System.out.println("c) Eliminar");
