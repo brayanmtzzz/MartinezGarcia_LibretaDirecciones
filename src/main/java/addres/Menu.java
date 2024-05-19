@@ -138,7 +138,7 @@ public class Menu {
     }
 
     public void saveAndQuit(String filename) {
-        try (PrintWriter writer = new PrintWriter(new FileWriter(filename))) {
+        try (PrintWriter writer = new PrintWriter(new FileWriter(filename, false))) {
             for (AddressEntry entry : addressBook.getAllAddressEntries()) {
                 writer.println(entry.getFirstName() + "," +
                         entry.getLastName() + "," +
@@ -151,7 +151,7 @@ public class Menu {
             }
             System.out.println("Entradas guardadas en la libreta de direcciones.");
         } catch (IOException e) {
-            System.out.println("Error al guardar el archivo.");
+            System.out.println("Error al guardar en la libreta de direcciones: " + e.getMessage());
         }
     }
 
